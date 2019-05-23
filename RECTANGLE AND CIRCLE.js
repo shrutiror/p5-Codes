@@ -5,6 +5,8 @@ function setup() {
 }
 
 function draw() {
+	var x=400;
+	var y=150;
 	fill(255,0,0);
 	stroke(75);
 	ellipse(400, 150, 150, 150);
