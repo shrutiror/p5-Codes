@@ -9,8 +9,8 @@ function draw() {
 	var y=150;
 	fill(255,0,0);
 	stroke(75);
-	ellipse(400, 150, 150, 150);
+	ellipse(x, y, 150, 150);
 	fill(255);
 	noStroke();
-	rect(400,150,100,50);
+	rect(x,y,100,50);
 }
