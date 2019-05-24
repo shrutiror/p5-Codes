@@ -15,7 +15,7 @@ function draw()
 		{
 			fill(30,78,150);
 		    stroke(0,255,0);
-            ellipse((diameter/2)+j*(diameter),0 , diameter, diameter);
+		    ellipse((diameter/2)+i*(diameter),(diameter/2)+j*(diameter), diameter, diameter);
         }
 
 	}
